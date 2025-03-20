@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f7dce8, #c6f3f4); /* 模拟图片中的渐变背景 */
+}
+
+.container {
+  width: 800px; /* 调整为更接近实际简历的宽度 */
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.module {
+  background: rgba(255, 255, 255, 0.5); /* 半透明背景 */
+  backdrop-filter: blur(5px); /* 毛玻璃效果 */
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.module h2 {
+  color: #333;
+  margin-bottom: 10px;
+  text-align: left; /* 标题左对齐 */
+}
+
+.module p, .module ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* 内容居中 */
+}
+
+.module ul li {
+  margin: 5px 0;
+}
+
+.thank-you {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.module:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
